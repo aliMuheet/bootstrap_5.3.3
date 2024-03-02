@@ -1,0 +1,79 @@
+p {
+    margin: 0 0 12px;
+
+    &:last-child {
+        margin: 0;
+    }
+}
+
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+    @include media-breakpoint-up(lg) {
+        margin-bottom: 1.8rem;
+    }
+}
+
+h1,
+.h1 {
+    font-size: 48px;
+    line-height: 1.1;
+    font-weight: $font-weight-light;
+
+    @include media-breakpoint-up(md) {
+        font-size: 50px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        font-size: 60px;
+    }
+
+    @include media-breakpoint-up(xl) {
+        font-size: 70px;
+    }
+
+    @include media-breakpoint-up(xxl) {
+        font-size: 100px;
+        line-height: 94px;
+    }
+}
+
+h2,
+.h2 {
+
+    font-size: 40px;
+    line-height: 1.05;
+
+    @include media-breakpoint-up(md) {
+        font-size: 42px;
+        line-height: 1;
+    }
+
+    @include media-breakpoint-up(xxl) {
+        font-size: 62px;
+    }
+}
+
+h3,
+.h3 {
+    font-size: 32px;
+    line-height: 1.05;
+
+    @include media-breakpoint-up(xl) {
+        font-size: 48px;
+    }
+
+    @include media-breakpoint-up(xxl) {
+
+        font-size: 54px;
+    }
+}
