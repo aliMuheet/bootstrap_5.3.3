@@ -1,6 +1,3 @@
-@import 'base/fonts';
-
-
 @import 'vendors/bootstrap/functions';
 
 @import 'bootstrap-cusrom';
@@ -16,15 +13,38 @@
 @import 'base/mixins';
 @import 'base/helpers';
 
+@import 'base/fonts';
+
 @import 'base/global';
 
 @import 'layout/header';
 @import 'layout/common';
 @import 'layout/footer';
 
-
 body {
     min-width: $base-min-width;
+    font-size: 16px;
+    font-size: clamp(1rem, 2vw, 1.125rem); // (16px, 2vw, 18px)
 
     @include media-breakpoint-up(lg) {}
+}
+
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm,
+.row {
+
+
+    @include media-breakpoint-up(lg) {
+        --gss-gutter-x: 2rem;
+    }
+
+    @include media-breakpoint-up(xl) {
+        --gss-gutter-x: 2.75rem
+    }
+
 }
