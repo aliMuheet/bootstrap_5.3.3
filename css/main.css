@@ -64,7 +64,7 @@ body {
   .container-md,
   .container-sm,
   .row {
-    --gss-gutter-x: 2rem;
+    --bs-gutter-x: 2rem;
   }
 }
 @media (min-width: 1200px) {
@@ -76,7 +76,7 @@ body {
   .container-md,
   .container-sm,
   .row {
-    --gss-gutter-x: 2.75rem ;
+    --bs-gutter-x: 2.75rem // 16x2.75 = 44/2 = 22px gutter, from left and right ;
   }
 }
 

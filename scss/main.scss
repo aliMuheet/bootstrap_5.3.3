@@ -40,11 +40,11 @@ body {
 
 
     @include media-breakpoint-up(lg) {
-        --gss-gutter-x: 2rem;
+        --#{$prefix}gutter-x: 2rem; // 16x2=32 = 32/2 = 16px gutter, from left and right
     }
 
     @include media-breakpoint-up(xl) {
-        --gss-gutter-x: 2.75rem
+        --#{$prefix}gutter-x: 2.75rem // 16x2.75 = 44 = 44/2 = 22px gutter, from left and right
     }
 
 }
