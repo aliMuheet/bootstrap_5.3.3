@@ -1,5 +1,5 @@
 {
-  "name": "watt",
+  "name": "bootstrap_5.3.3",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sass": "^1.77.5"
+    "sass": "^1.77.8"
   }
 }
