@@ -44,7 +44,7 @@ body {
     }
 
     @include media-breakpoint-up(xl) {
-        --#{$prefix}gutter-x: 2.75rem // 16x2.75 = 44 = 44/2 = 22px gutter, from left and right
+        --#{$prefix}gutter-x: 2.75rem; // 16x2.75 = 44 = 44/2 = 22px gutter, from left and right
     }
 
 }
